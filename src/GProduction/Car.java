@@ -39,7 +39,7 @@ public class Car {
     public int X, Y, X1, Y1, VX, VY;
     private int lastX, lastY;
     point2D hood = new point2D(8, 0);
-    private static int w, h;
+    private static int w, h, temp;
 
     public Car(Maps map, Ecran ecran, String name) {
         Image temp = null;
